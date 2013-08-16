@@ -1,0 +1,15 @@
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="new-hack-title">Name</label>
+    <div class="controls">
+      {{view Ember.TextField id="new-hack-title" placeholder="What is your hack called?" valueBinding="newTitle" class="input-xlarge"}}
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="new-hack-description">Description</label>
+    <div class="controls">
+      {{view Ember.TextArea id="new-hack-description" placeholder="Say something witty..." valueBinding="newDescription" rows="4" class="input-xlarge"}}
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" {{action "createHack"}} style="margin-left: 180px">SUBMIT</button>
+</form>

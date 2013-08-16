@@ -34,7 +34,7 @@ app.requireJSONFormat = function (req, res, next) {
   }
 };
 
-app.use('/', express.static(path.join(__dirname, 'public')));
+app.use('/', express.static(path.join(__dirname, 'client/app')));
 
 app.all('/*', function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");

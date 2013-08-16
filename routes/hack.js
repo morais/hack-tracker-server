@@ -32,7 +32,7 @@ function configureRoutes(app) {
 
   // Create 
   app.post('/hacks.:format?', function(req, res) {
-    var d = new Hack(req.body);
+    var d = new Hack(req.body.hack);
     d.save(function() {
       if (req.params.format === 'json') {
         res.send({'hack': formatObject(d) });
@@ -61,7 +61,7 @@ function configureRoutes(app) {
       if (!d) {
         res.send('Object not found', 404);
       } else {
-        d.title = req.body.title;    
+        d.title = req.body.hack.title;    
         d.save(function(err) {
           res.send({'hack': formatObject(d) });
         });

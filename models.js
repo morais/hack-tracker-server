@@ -1,12 +1,14 @@
-var mongoose = require('mongoose'),
-  Hack;
-
 function defineModels(mongoose, fn) {
   var Schema = mongoose.Schema,
-      ObjectId = Schema.ObjectId;
+      ObjectId = Schema.ObjectId,
+      Hack,
+      User;
 
   User = new Schema({
-    'name': String
+    'external_id': { type: Number, index: true },
+    'external_system': { type: String, index: true },
+    'name': String,
+    'avatar_url': String
   });
 
   User.virtual('id')

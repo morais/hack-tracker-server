@@ -25,16 +25,10 @@ app.use(app.router);
   app.use(express.errorHandler());
 //}
 
-YAMMER_CLIENT_ID = ''
-YAMMER_CLIENT_SECRET = ''
-
-callbackURL = "http://127.0.0.1:" + app.get('port') + "/auth/yammer/callback";
-console.log(callbackURL);
-
 passport.use(new YammerStrategy({
-    clientID: YAMMER_CLIENT_ID,
-    clientSecret: YAMMER_CLIENT_SECRET,
-    callbackURL: callbackURL
+    clientID: process.env.YAMMER_CLIENT_ID,
+    clientSecret: process.env.YAMMER_CLIENT_SECRET,
+    callbackURL: "http://127.0.0.1:" + app.get('port') + "/auth/yammer/callback"
   },
   function(accessToken, refreshToken, profile, done) {
     console.log('COOL, AUTHENTICATED');

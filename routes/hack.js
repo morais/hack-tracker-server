@@ -35,7 +35,7 @@ function configureRoutes(app) {
     var d = new Hack(req.body);
     d.save(function() {
       if (req.params.format === 'json') {
-        res.send(formatObject(d));
+        res.send({'hack': formatObject(d) });
       } else {
         res.send('Format not available', 400);
       }
@@ -48,7 +48,7 @@ function configureRoutes(app) {
       if (!d) {
         res.send('Object not found', 404);    
       } else if (req.params.format === 'json') {
-        res.send(formatObject(d));
+        res.send({'hack': formatObject(d) });
       } else {
         res.send('Format not available', 400);
       }
@@ -63,7 +63,7 @@ function configureRoutes(app) {
       } else {
         d.title = req.body.title;    
         d.save(function(err) {
-          res.send(formatObject(d));
+          res.send({'hack': formatObject(d) });
         });
       }
     });

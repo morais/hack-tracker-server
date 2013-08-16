@@ -1,15 +1,13 @@
 {{#each controller}}
   <section class="hack row">
-    <img class="span1 mugshot" src="https://mug0.assets-yammer.com/mugshot/images/48x48/B27zKqkcRvqCkZKTz1Ssldm3SNsZXS7S" />
+    <img class="span1 mugshot" {{bindAttr src="avatar"}} />
     <div class="span10" style="width: 80%">
       <h1>{{title}}</h1>
       <p>{{description}}</p>
     </div>
-    <div class="span1 count">
-    123
-    </div>
+    <div class="span1 count">{{votes}}</div>
   </section>
 {{/each}}
-<section class="new hack row">
-{{partial "hacks/new"}}
+<section class="new hack row" style="display: none">
+{{ partial "hacks/new" }}
 </section>

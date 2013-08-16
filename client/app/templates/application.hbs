@@ -1,4 +1,20 @@
-<img src="/images/header.png" />
 <div class="container">
+
+<img class="logo" src="/images/header.png" />
+
+<ul class="tabs">
+  <li class="selected">Top Hacks</li>
+  <li>Presentation Queue</li>
+  <li>Leaderboard</li>
+  <li class="right"><span class="badge add_hack">+</span></li>
+</ul>
+
 {{outlet}}
+
+<script>
+$(".add_hack").click(function () {
+  $('.new.hack').toggle();
+});
+</script>
+
 </div>

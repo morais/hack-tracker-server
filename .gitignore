@@ -5,4 +5,3 @@ client/dist
 client/node_modules
 client/.sass-cache
 client/.tmp
-client/app/bower_components

@@ -1,9 +1,9 @@
 function configureRoutes(app) {
-  var User = app.User;
+  var User = app.User,
       formatObject = function (o) {
         var o = o.toObject();
-        return { 
-          name: o.name, 
+        return {
+          name: o.name,
           avatar_url: o.avatar_url,
           id: o._id,
           external_id: o.external_id,
@@ -19,7 +19,7 @@ function configureRoutes(app) {
   // List
   app.get('/users.:format', app.requireJSONFormat, app.requireAuthentication, function(req, res) {
     User.find(function (err, Users) {
-      var UsersList = Users.map(function(User) { 
+      var UsersList = Users.map(function(User) {
         return formatObject(User);
       });
       res.send({'users': UsersList});

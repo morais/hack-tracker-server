@@ -1,9 +1,9 @@
 function configureRoutes(app) {
-  var Hack = app.Hack;
+  var Hack = app.Hack,
       formatObject = function (o) {
         var o = o.toObject();
-        return { 
-          'title': o.title, 
+        return {
+          'title': o.title,
           'description': o.description,
           'url':  o.url,
           'submission_date': o.submission_date,
@@ -12,7 +12,7 @@ function configureRoutes(app) {
           'snapshots': o.snapshots,
           'status': o.status,
           'owner': o.owner,
-          'id': o._id 
+          'id': o._id
         };
       };
 
@@ -20,7 +20,7 @@ function configureRoutes(app) {
   app.get('/hacks.:format', function(req, res) {
     Hack.find(function (err, hacks) {
       if (req.params.format === 'json') {
-        var hacksList = hacks.map(function(hack) { 
+        var hacksList = hacks.map(function(hack) {
           return formatObject(hack);
         });
         res.send({'hacks': hacksList});
@@ -30,7 +30,7 @@ function configureRoutes(app) {
     });
   });
 
-  // Create 
+  // Create
   app.post('/hacks.:format?', function(req, res) {
     var d = new Hack(req.body.hack);
     d.save(function() {
@@ -46,7 +46,7 @@ function configureRoutes(app) {
   app.get('/hacks/:id.:format?', function(req, res) {
    Hack.findOne({ _id: req.params.id }, function(err, d) {
       if (!d) {
-        res.send('Object not found', 404);    
+        res.send('Object not found', 404);
       } else if (req.params.format === 'json') {
         res.send({'hack': formatObject(d) });
       } else {
@@ -61,7 +61,7 @@ function configureRoutes(app) {
       if (!d) {
         res.send('Object not found', 404);
       } else {
-        d.title = req.body.hack.title;    
+        d.title = req.body.hack.title;
         d.save(function(err) {
           res.send({'hack': formatObject(d) });
         });
@@ -73,13 +73,13 @@ function configureRoutes(app) {
   app.del('/hacks/:id.:format?', function(req, res) {
     Hack.findOne({ _id: req.params.id }, function(err, d) {
       if (!d) {
-        res.send('Object not found', 404); 
+        res.send('Object not found', 404);
       } else {
         d.remove(function() {
           res.send('true');
         });
       }
-    });      
+    });
   });
 
 }

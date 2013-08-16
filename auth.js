@@ -22,7 +22,7 @@ exports.configureAuth = function(app) {
           user = new app.User({ external_id: profile.id, external_type: 'yammer', name: profile.displayName, avatar_url: profile._json.mugshot_url });
         } else {
           user.name = profile.displayName;
-          user.avatar_url = profile.mugshot_url;
+          user.avatar_url = profile._json.mugshot_url;
         }
         user.save(function () { done(null, user) });
       });

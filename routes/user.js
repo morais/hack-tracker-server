@@ -5,13 +5,15 @@ function configureRoutes(app) {
         return { 
           name: o.name, 
           avatar_url: o.avatar_url,
-          id: o._id
+          id: o._id,
+          external_id: o.external_id,
+          external_type: o.external_type
         };
       };
 
   // Get current user
   app.get('/user.:format', app.requireJSONFormat, app.requireAuthentication, function(req, res) {
-    res.send(formatObject(req.user));
+    res.send({'user': formatObject(req.user) });
   });
 
   // List
@@ -20,7 +22,7 @@ function configureRoutes(app) {
       var UsersList = Users.map(function(User) { 
         return formatObject(User);
       });
-      res.send({'Users': UsersList});
+      res.send({'users': UsersList});
     });
   });
 
@@ -30,7 +32,7 @@ function configureRoutes(app) {
       if (!d) {
         res.send('Object not found', 404);
       } else {
-        res.send(formatObject(d));
+        res.send({'user': formatObject(d) });
       }
     });
   });

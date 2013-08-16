@@ -6,7 +6,7 @@ function defineModels(mongoose, fn) {
 
   User = new Schema({
     'external_id': { type: Number, index: true },
-    'external_system': { type: String, index: true },
+    'external_type': { type: String, index: true },
     'name': String,
     'avatar_url': String
   });

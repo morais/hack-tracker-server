@@ -4,7 +4,7 @@ exports.configureAuth = function(app) {
       YammerStrategy = require('passport-yammer').Strategy;
 
   app.requireAuthentication = function (req, res, next) {
-    if (req.isAuthenticated()) { 
+    if (req.isAuthenticated()) {
       return next(); 
     } else {
       res.redirect('/login')

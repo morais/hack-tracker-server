@@ -16,15 +16,23 @@ app.use(express.logger('dev'));
 app.use(express.cookieParser());
 app.use(express.bodyParser());
 app.use(express.methodOverride());
+app.use(express.session({ secret: process.env.SESSION_SECRET || 'hacktracker' }));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(express.session({ secret: process.env.SESSION_SECRET || 'hacktracker' }));
 app.use(app.router);
 if (true || 'development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
 auth.configureAuth(app);
+
+app.requireJSONFormat = function (req, res, next) {
+  if (req.params.format !== 'json') {
+    res.send('Format not supported: ' + req.params.format);
+  } else {
+    next();
+  }
+};
 
 app.use('/', express.static(path.join(__dirname, 'public')));
 

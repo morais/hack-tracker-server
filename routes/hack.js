@@ -20,9 +20,10 @@ function configureRoutes(app) {
   app.get('/hacks.:format', function(req, res) {
     Hack.find(function (err, hacks) {
       if (req.params.format === 'json') {
-        res.send(hacks.map(function(hack) { 
+        var hacksList = hacks.map(function(hack) { 
           return formatObject(hack);
-        }));
+        });
+        res.send({'hacks': hacksList});
       } else {
         res.send('Format not supported: ' + req.params.format);
       }

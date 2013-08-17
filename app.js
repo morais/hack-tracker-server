@@ -1,2 +1,2 @@
 require('better-require')();
-require('./app/application');
+require('./server/application');

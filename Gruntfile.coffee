@@ -15,3 +15,5 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-recess'
 
   grunt.registerTask 'default', ['recess']
+
+  grunt.registerTask 'heroku:production', 'recess'

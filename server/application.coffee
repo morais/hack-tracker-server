@@ -54,12 +54,11 @@ for route in ['event', 'hack', 'user']
 
 
 # Common routes
-# app.use '/', express.static path.join(__dirname, 'client/dist/')
+app.use express.static path.join(__dirname, '/../client/')
 
 app.all '/*', (req, res, next) ->
   res.header "Access-Control-Allow-Origin", "*"
   res.header "Access-Control-Allow-Headers", "X-Requested-With,Content-Type"
-  res.header "Content-Type", "application/json"
   next()
 
 

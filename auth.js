@@ -5,16 +5,18 @@ exports.configureAuth = function(app) {
 
   app.requireAuthentication = function (req, res, next) {
     if (req.isAuthenticated()) {
-      return next(); 
+      return next();
     } else {
       res.redirect('/login')
     }
   };
 
+  url = process.env.BASE_URL || 'http://localhost:5000';
+
   passport.use(new YammerStrategy({
       clientID: process.env.YAMMER_CLIENT_ID,
       clientSecret: process.env.YAMMER_CLIENT_SECRET,
-      callbackURL: "http://127.0.0.1:" + app.get('port') + "/auth/yammer/callback"
+      callbackURL: url + "/auth/yammer/callback"
     },
     function (accessToken, refreshToken, profile, done) {
       app.User.findOne({ external_id: profile.id, external_type: 'yammer'  }, function (err, user) {
@@ -46,7 +48,7 @@ exports.configureAuth = function(app) {
 
   app.get('/auth/yammer', passport.authenticate('yammer'));
 
-  app.get('/auth/yammer/callback', 
+  app.get('/auth/yammer/callback',
     passport.authenticate('yammer', { failureRedirect: '/login' }),
     function(req, res) {
       res.redirect('/');

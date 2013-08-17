@@ -1,16 +1,21 @@
-var express = require('express');
-var mongoose = require('mongoose');
-var models = require('./models');
-var auth = require('./auth');
-var hack = require('./routes/hack');
-var user = require('./routes/user');
-var http = require('http');
-var path = require('path');
-var passport = require('passport');
+var express  = require('express'),
+    mongoose = require('mongoose'),
+    models   = require('./models'),
+    auth     = require('./auth'),
+    hack     = require('./routes/hack'),
+    user     = require('./routes/user'),
+    http     = require('http'),
+    path     = require('path'),
+    passport = require('passport'),
+    app      = express();
 
-var app = express();
+
+var db_uri = process.env.MONGOLAB_URI ||
+             process.env.MONGOHQ_URL ||
+             'mongodb://localhost/hacktracker';
 
 app.set('port', process.env.PORT || 3000);
+
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.cookieParser());
@@ -20,7 +25,8 @@ app.use(express.session({ secret: process.env.SESSION_SECRET || 'hacktracker' })
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(app.router);
-if (true || 'development' == app.get('env')) {
+
+if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
@@ -45,7 +51,7 @@ app.all('/*', function(req, res, next) {
 models.defineModels(mongoose, function() {
   app.Hack = mongoose.model('Hack');
   app.User = mongoose.model('User');
-  db = mongoose.connect('mongodb://localhost/hacktracker');
+  db = mongoose.connect(db_uri);
 });
 
 hack.configureRoutes(app);

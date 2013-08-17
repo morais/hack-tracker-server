@@ -27,7 +27,7 @@ exports.configureAuth = (app) ->
   )
 
   app.requireAuth = (req, res, next) ->
-    return next() if req.isAuthenticated
+    return next() if req.isAuthenticated()
     res.redirect '/auth/yammer'
 
   passport.use strategy

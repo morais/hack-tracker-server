@@ -1,0 +1,13 @@
+{
+  "name": "hack-tracker-server",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.0.0",
+    "ember": "*",
+    "ember-data": "*"
+  },
+  "resolutions": {
+    "jquery": "~2.0.0"
+  },
+  "private": true
+}

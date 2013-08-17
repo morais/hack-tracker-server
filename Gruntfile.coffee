@@ -5,13 +5,19 @@ module.exports = (grunt) ->
     watch:
       emberTemplates:
         files: 'public/src/templates/{,*}*.hbs'
-        tasks: ['emberTemplates']
+        tasks: ['emberTemplates:dist']
       coffee:
         files: 'public/src/js/{,*}*.coffee'
         tasks: ['coffee:dist']
       less:
         files: 'public/src/css/{,*}*.less'
-        tasks: ['less:development']
+        tasks: ['less:dist']
+
+    copy:
+      dist:
+        files: [
+          { expand: true, cwd: 'bower_components/ember/', src: ['ember.prod.js'], dest: 'public/js/'}
+        ]
 
     coffee:
       dist:
@@ -49,6 +55,8 @@ module.exports = (grunt) ->
 
   require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
-  grunt.registerTask 'default', ['clean', 'watch']
+  grunt.registerTask 'build', ['emberTemplates', 'coffee:dist', 'less:dist']
 
-  grunt.registerTask 'heroku', ['emberTemplates', 'coffee:dist', 'less:dist']
+  grunt.registerTask 'default', ['clean', 'build', 'watch']
+
+  grunt.registerTask 'heroku', ['build']

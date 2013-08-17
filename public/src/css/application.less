@@ -1,9 +1,45 @@
 @import "bootstrap/bootstrap";
 
-html, body {
-  background-color: #f9f9f9;
+html {
+  font-family: "Helvetica Neue";
+  font-size: 13px;
 }
 
-p {
-  color: #fff;
+html, body {
+    margin: 30px;
+    background-color: #ccc;
+}
+
+.hack {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 190%;
+    font-size: 1.2rem;
+  }
+
+  p {
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .mugshot {
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+  }
+  .count {
+    font-size: 2rem;
+  }
+}
+
+.hack.new {
+  padding-top: 14px;
+  background-color: $grayLighter;
 }

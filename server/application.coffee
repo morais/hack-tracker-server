@@ -54,7 +54,7 @@ for route in ['event', 'hack', 'user']
 
 
 # Common routes
-app.use express.static path.join(__dirname, '/../client/')
+app.use express.static path.join(__dirname, '/../public/')
 
 app.all '/*', (req, res, next) ->
   res.header "Access-Control-Allow-Origin", "*"

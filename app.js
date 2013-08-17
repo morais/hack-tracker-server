@@ -7,6 +7,7 @@ var express  = require('express'),
     http     = require('http'),
     path     = require('path'),
     passport = require('passport'),
+    newrelic = require('newrelic'),
     app      = express();
 
 

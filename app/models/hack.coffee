@@ -1,10 +1,13 @@
 mongoose = require "mongoose"
 Schema   = mongoose.Schema
 ObjectId = mongoose.Schema.ObjectId
+validate = require('mongoose-validator').validate
+
+presence = validate('notEmpty')
 
 hack_schema = new Schema
-  title:        { type: String, index: true }
-  description:  String
+  title:        { type: String, index: true, validate: presence }
+  description:  { type: String, validate: presence }
   event_id:     ObjectId
   owner_id:     ObjectId
   participants: [ObjectId]

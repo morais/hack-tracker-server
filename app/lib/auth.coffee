@@ -47,7 +47,7 @@ exports.configureAuth = (app) ->
 
   app.get '/logout', app.requireAuth, (req, res) ->
     req.logout
-    res.redirect '/'
+    res.redirect '/users/current'
 
   app.get '/auth/yammer', passport.authenticate('yammer')
 
@@ -56,5 +56,5 @@ exports.configureAuth = (app) ->
     passport.authenticate('yammer'
     {failureRedirect: '/login'})
     (req, res) ->
-      res.redirect '/'
+      res.redirect '/users/current'
   )

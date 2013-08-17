@@ -1,9 +1,10 @@
 mongoose = require "mongoose"
+validate = require('mongoose-validator').validate
 
-Event = new mongoose.Schema
-  title: String
+event_schema = new mongoose.Schema
+  title: {type: String, index: true, validate: [validate('notEmpty')]}
 
-Event.virtual('id').get ->
+event_schema.virtual('id').get ->
   @._id.toHexString
 
-mongoose.model 'Event', Event
+mongoose.model 'Event', event_schema

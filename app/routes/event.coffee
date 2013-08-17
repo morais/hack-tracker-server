@@ -10,7 +10,6 @@ exports.configureRoutes = (app) ->
     Event.find (err, events) ->
       res.send 'events': format e for e in events
 
-
   app.get '/events/:id', (req, res) ->
     Event.findOne {_id: req.params.id}, (err, d) ->
       if d

@@ -16,7 +16,10 @@ exports.configureRoutes = (app) ->
 
   app.post '/hacks', app.requireAuth, (req, res) ->
     hack = new Hack req.body.hack
-    hack.set 'owner_id', req.user.id
+    hack.set
+      owner_id: req.user.id
+      participants: [req.user.id]
+
     hack.save ->
       res.send 'hack': hack
 

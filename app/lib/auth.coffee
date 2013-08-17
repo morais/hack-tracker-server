@@ -28,7 +28,12 @@ exports.configureAuth = (app) ->
 
   app.requireAuth = (req, res, next) ->
     return next() if req.isAuthenticated()
-    res.redirect '/auth/yammer'
+    if process.env.STUB_AUTH
+      req.user = {}
+      req.user.id = process.env.STUB_AUTH
+      next()
+    else
+      res.redirect '/auth/yammer'
 
   passport.use strategy
 

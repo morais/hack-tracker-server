@@ -1,22 +1,16 @@
 mongoose = require "mongoose"
-
+Schema   = mongoose.Schema
 ObjectId = mongoose.Schema.ObjectId
 
-Hack = new mongoose.Schema(
-  title: { type: String, index: true }
-  description: String
-  event: ObjectId
-  url:  String
-  submission_date: Date
-  voters: [ObjectId]
-  tags:  [String]
-  snapshots:  [String]
-  status: { type: String, index: true }
-  owner: ObjectId
+hack_schema = new Schema
+  title:        { type: String, index: true }
+  description:  String
+  event_id:     ObjectId
+  owner_id:     ObjectId
   participants: [ObjectId]
-)
+  status:       { type: String, index: true }
 
-Hack.virtual('id').get ->
+hack_schema.virtual('id').get ->
   @._id.toHexString
 
-mongoose.model 'Hack', Hack
+Hack = mongoose.model 'Hack', hack_schema

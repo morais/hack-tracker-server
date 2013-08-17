@@ -15,6 +15,7 @@
     "mongoose": "*",
     "passport": "*",
     "passport-yammer": "*",
-    "newrelic":"*"
+    "newrelic":"*",
+    "better-require":"*"
   }
 }

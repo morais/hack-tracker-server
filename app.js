@@ -1,15 +1,17 @@
+require('better-require')();
+
 var express  = require('express'),
     mongoose = require('mongoose'),
     models   = require('./models'),
     auth     = require('./auth'),
     hack     = require('./routes/hack'),
     user     = require('./routes/user'),
+    event    = require('./routes/event'),
     http     = require('http'),
     path     = require('path'),
     passport = require('passport'),
     newrelic = require('newrelic'),
     app      = express();
-
 
 var db_uri = process.env.MONGOLAB_URI ||
              process.env.MONGOHQ_URL ||
@@ -50,13 +52,15 @@ app.all('/*', function(req, res, next) {
 });
 
 models.defineModels(mongoose, function() {
-  app.Hack = mongoose.model('Hack');
-  app.User = mongoose.model('User');
+  app.Hack  = mongoose.model('Hack');
+  app.User  = mongoose.model('User');
+  app.Event = mongoose.model('Event');
   db = mongoose.connect(db_uri);
 });
 
 hack.configureRoutes(app);
 user.configureRoutes(app);
+event.configureRoutes(app);
 
 // Start the server!
 http.createServer(app).listen(app.get('port'), function(){

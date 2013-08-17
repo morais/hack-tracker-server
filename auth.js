@@ -7,7 +7,7 @@ exports.configureAuth = function(app) {
     if (req.isAuthenticated()) {
       return next();
     } else {
-      res.redirect('/login')
+      res.redirect('/auth/yammer');
     }
   };
 

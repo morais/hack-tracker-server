@@ -18,7 +18,14 @@ exports.configureRoutes = (app) ->
       else
         res.send 'Object not found', 404
 
-  app.post '/hacks', (req, res) ->
-    d = new Hack req.body.hack
-    d.save ->
-      res.send 'hack': format d
+  app.post '/events', app.requireAuth, (req, res) ->
+    event = new Event req.body.event
+    event.save ->
+      res.send 'event': event
+
+  app.put '/events/:id', app.requireAuth, (req, res) ->
+    Event.findById req.params.id, (e, event) ->
+      return res.send 'Not found', 404 unless event?
+      event.set req.body.event
+      event.save (e, s) ->
+        res.send 'event': s

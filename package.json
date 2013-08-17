@@ -10,6 +10,7 @@
     "jade": "*",
     "mongoose": "*",
     "passport": "*",
-    "passport-yammer": "*"
+    "passport-yammer": "*",
+    "newrelic":"*"
   }
 }

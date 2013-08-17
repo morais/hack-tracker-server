@@ -1,19 +1,54 @@
 module.exports = (grunt) ->
 
   grunt.initConfig
-    pkg: grunt.file.readJSON 'package.json'
-    recess:
+
+    watch:
+      emberTemplates:
+        files: 'public/src/templates/{,*}*.hbs'
+        tasks: ['emberTemplates']
+      coffee:
+        files: 'public/src/js/{,*}*.coffee'
+        tasks: ['coffee:dist']
+      less:
+        files: 'public/src/css/{,*}*.less'
+        tasks: ['less:development']
+
+    coffee:
+      dist:
+        files: [{
+          expand: true
+          cwd: 'public/src/js'
+          src: '{,*}*.coffee'
+          dest: 'public/js'
+          ext: '.js'
+        }]
+
+    clean:
+      dist:
+        files: [{
+          src: [ 'public/js/*', 'public/css/*']
+        }]
+
+    emberTemplates:
       dist:
         options:
-          compile: true
-          compress: true
+          templateName: (sourcefile) ->
+            sourcefile.replace /public\/src\/templates/, ''
         files:
-          'client/css/application.css': [
-            'assets/css/application.less'
-          ]
+          'public/js/compiled-templates.js':'public/src/templates/{,*}*.hbs'
 
-  grunt.loadNpmTasks 'grunt-recess'
+    less:
+      dist:
+        options:
+          compress: true
+          paths: ['public/src/css']
+        files:
+          'public/css/app.css': 'public/src/css/application.less'
 
-  grunt.registerTask 'default', ['recess']
 
-  grunt.registerTask 'heroku:production', 'recess'
+
+  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+
+  grunt.registerTask 'default', ['clean', 'watch']
+
+  grunt.registerTask 'heroku', ['emberTemplates', 'coffee:dist', 'less:dist']

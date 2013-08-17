@@ -1,0 +1,1867 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"require",
+				"requireAuth"
+			],
+			[
+				"members_co",
+				"members_count_key"
+			],
+			[
+				"pub",
+				"public_group"
+			],
+			[
+				"log_grou",
+				"log_group_member_remove_event"
+			],
+			[
+				"private_",
+				"private_pending"
+			],
+			[
+				"create",
+				"create_active_user"
+			],
+			[
+				"cer",
+				"create_active_user"
+			],
+			[
+				"distru",
+				"distributed_types"
+			],
+			[
+				"announce",
+				"announce_file_upload"
+			],
+			[
+				"is_pend",
+				"is_pending_changed_to_false"
+			],
+			[
+				"number",
+				"number_of_users"
+			],
+			[
+				"loo",
+				"look_busy_groups_follow"
+			],
+			[
+				"nav-list-li",
+				"nav-list-link-no-icon"
+			],
+			[
+				"group_member",
+				"group_memberships_sorted"
+			],
+			[
+				"valid",
+				"validate_response_type"
+			],
+			[
+				"set",
+				"set_security_context"
+			],
+			[
+				"deleted_",
+				"delete_suspended_after"
+			],
+			[
+				"add_org",
+				"add_org_relationship_by_email_or_id"
+			],
+			[
+				"rate_l",
+				"rate_limit_key"
+			],
+			[
+				"Access-",
+				"Access-Control-Allow-Origin"
+			],
+			[
+				"we",
+				"we_need_more_users"
+			],
+			[
+				"peer_",
+				"peer_getting_started_notify_peers"
+			],
+			[
+				"pe",
+				"peer_getting_started_notify_peers"
+			],
+			[
+				"notify",
+				"notify_all_inviters"
+			],
+			[
+				"noti",
+				"notify_any_other_users"
+			],
+			[
+				"find_",
+				"find_all_inviters"
+			],
+			[
+				"find_all",
+				"find_all_at_mentioners"
+			],
+			[
+				"sent",
+				"sent_to_user_ids"
+			],
+			[
+				"acces",
+				"access_token_from_request"
+			],
+			[
+				"auth",
+				"authenticate_env_if_needed"
+			],
+			[
+				"auth_tok",
+				"auth_token_from_hash"
+			],
+			[
+				"log_mes",
+				"log_message_creation"
+			],
+			[
+				"invite",
+				"invited_user_id"
+			],
+			[
+				"invit",
+				"inviting_user"
+			],
+			[
+				"set_message",
+				"set_message_id_on_body"
+			],
+			[
+				"method",
+				"method_name"
+			],
+			[
+				"Mess",
+				"MessageReferenceRefactorProcessor"
+			],
+			[
+				"MessageRefer",
+				"MessageReferenceRefactorProcessor"
+			],
+			[
+				"message_ref",
+				"message_references"
+			],
+			[
+				"Mes",
+				"MessageReferenceRefactorProcessorTest"
+			],
+			[
+				"Messa",
+				"MessageReference"
+			],
+			[
+				"message_references_with",
+				"message_references_without_old"
+			],
+			[
+				"message_re",
+				"message_references_pure_relation"
+			],
+			[
+				"calculat",
+				"calculate_ref_id"
+			],
+			[
+				"setup_mock",
+				"setup_mock_message_references"
+			],
+			[
+				"exist",
+				"existing_message_body"
+			],
+			[
+				"Invalid",
+				"InvalidMessageReferenceException"
+			],
+			[
+				"referen",
+				"referenced_obj"
+			],
+			[
+				"refere",
+				"referenced_as"
+			],
+			[
+				"flatterabl",
+				"flatterable_config"
+			],
+			[
+				"referenc",
+				"referenced_as"
+			],
+			[
+				"prexiting",
+				"preexisting_reference"
+			],
+			[
+				"rail",
+				"rails32"
+			],
+			[
+				"assign",
+				"assign_future_to"
+			],
+			[
+				"icon-chev",
+				"icon-chevron-down"
+			],
+			[
+				"icon",
+				"icon-chevron-down"
+			],
+			[
+				"class",
+				"class_name"
+			],
+			[
+				"replace",
+				"replace_permalinks_and_add_recipients"
+			],
+			[
+				"attached_ymod",
+				"attached_ymodule_id_from_story_params"
+			],
+			[
+				"data_reten",
+				"data_retention_policy"
+			],
+			[
+				"pendin",
+				"pending_attachment_ids"
+			],
+			[
+				"pending",
+				"pending_attachment_ids"
+			],
+			[
+				"attached",
+				"attached_model_objects"
+			],
+			[
+				"direct",
+				"direct_to_user_ids"
+			],
+			[
+				"render",
+				"render_forbidden_unless_network_allows_pms"
+			],
+			[
+				"data_rete",
+				"data_retention_controls"
+			],
+			[
+				"data",
+				"data_retention_policy"
+			],
+			[
+				"data_",
+				"data_exports"
+			],
+			[
+				"direc",
+				"directory_sync_welcome_messages"
+			],
+			[
+				"dire",
+				"directory_sync_email_settings"
+			],
+			[
+				"canon",
+				"canonical_only"
+			],
+			[
+				"stream",
+				"stream_clients"
+			],
+			[
+				"season",
+				"season_posters"
+			],
+			[
+				"app_st",
+				"app_store_request"
+			],
+			[
+				"app",
+				"app_store_requests"
+			],
+			[
+				"client",
+				"client_application_id"
+			],
+			[
+				"privacy",
+				"privacy_policy_url"
+			],
+			[
+				"mugshot",
+				"mugshot_large_id"
+			],
+			[
+				"mugsho",
+				"mugshot_small_id"
+			],
+			[
+				"mugr",
+				"mugshot_small_url"
+			],
+			[
+				"yj-button",
+				"yj-button-bar"
+			],
+			[
+				"to_s",
+				"to_sentence"
+			],
+			[
+				"categ",
+				"category_id"
+			],
+			[
+				"cat",
+				"category_name"
+			],
+			[
+				"cate",
+				"category_id"
+			],
+			[
+				"connect",
+				"connect_client"
+			],
+			[
+				"blocked_email",
+				"blocked_email_addresses"
+			],
+			[
+				"create_by_em",
+				"create_by_email_and_network"
+			],
+			[
+				"modified",
+				"modifiedNotifications"
+			],
+			[
+				"URL",
+				"URL_HOST_LIMIT"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/hack.coffee",
+			"settings":
+			{
+				"buffer_size": 540,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes/hack.coffee",
+			"settings":
+			{
+				"buffer_size": 1078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nvar nameValidator = [validate('len', 3, 50), validate('isAlphanumeric')];\n\nvar Schema = new mongoose.Schema({\n    name: {type: String, required: true, validate: nameValidator}\n});",
+			"settings":
+			{
+				"buffer_size": 180,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/event.coffee",
+			"settings":
+			{
+				"buffer_size": 279,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 73.0,
+		"selected_items":
+		[
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"gdc",
+				"Git: Diff Current File"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"brwo",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"glc",
+				"Git: Log Current File"
+			],
+			[
+				"gb",
+				"Git: Blame"
+			],
+			[
+				"checko",
+				"Git: Checkout Current File"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"git commit",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"packageupd",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"git",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"rbu",
+				"Set Syntax: Ruby"
+			],
+			[
+				"gcheckou",
+				"Git: Checkout Current File"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gitlo",
+				"Git: Log All"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"git diff c",
+				"Git: Diff Current File"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"gstash",
+				"Git: Stash Apply"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"git checkou",
+				"Git: Checkout Current File"
+			],
+			[
+				"gl",
+				"Git: Log All"
+			],
+			[
+				"git log c",
+				"Git: Log Current File"
+			],
+			[
+				"gitcommit",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"beaut",
+				"BeautifyRuby"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"checkout",
+				"Git: Checkout Current File"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"rail",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"gitcheckou",
+				"Git: Checkout Current File"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown"
+			],
+			[
+				"GB",
+				"Git: Blame"
+			],
+			[
+				"gbl",
+				"Git: Blame"
+			],
+			[
+				"packremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"pack instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git diff cu",
+				"Git: Diff Current File"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"g l c",
+				"Git: Log Current File"
+			],
+			[
+				"git log cu",
+				"Git: Log Current File"
+			],
+			[
+				"git log cur",
+				"Git: Log Current File"
+			],
+			[
+				"GIT LOG CU",
+				"Git: Log Current File"
+			],
+			[
+				"git lo",
+				"Git: Log Current File"
+			],
+			[
+				"git log curr",
+				"Git: Log Current File"
+			],
+			[
+				"git lo cu",
+				"Git: Log Current File"
+			],
+			[
+				"git lo cur",
+				"Git: Log Current File"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git current",
+				"Git: Log Current File"
+			],
+			[
+				"git log ",
+				"Git: Log All"
+			],
+			[
+				"git current file",
+				"Git: Log Current File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git diff",
+				"Git: Diff Current File"
+			],
+			[
+				"PRETT",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 435.0
+	},
+	"console":
+	{
+		"height": 368.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"\\",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"[:one].inject({}) {|h, i| h[i] = i }",
+			"end",
+			"irb"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/code/hack-tracker-server/package.json",
+		"/code/hack-tracker-server/app/routes/hack.coffee",
+		"/code/hack-tracker-server/app/lib/auth.coffee",
+		"/code/hack-tracker-server/app/routes/event.coffee",
+		"/code/hack-tracker-server/app/models/hack.coffee",
+		"/code/hack-tracker-server/app/routes/user.coffee",
+		"/code/hack-tracker-server/app/lib/oldauth.js",
+		"/code/hack-tracker-server/app/routes/olduser.js",
+		"/code/hack-tracker-server/app/application.coffee",
+		"/code/hack-tracker-server/app/routes/hack.js",
+		"/code/hack-tracker-server/client/app/scripts/models/hack.js",
+		"/code/hack-tracker-server/app.js",
+		"/code/hack-tracker-server/app/models/user.coffee",
+		"/code/hack-tracker-server/app/controllers/hack.js",
+		"/code/hack-tracker-server/app/lib/header.js",
+		"/code/hack-tracker-server/application.coffee",
+		"/code/hack-tracker-server/models.js",
+		"/code/hack-tracker-server/routes/hack.js",
+		"/code/hack-tracker-server/routes/event.coffee",
+		"/code/hack-tracker-server/app/models/event.coffee",
+		"/code/hack-tracker-server/newrelic.js",
+		"/code/hack-tracker-server/auth.js",
+		"/code/hack-tracker-ember/app/styles/style.scss",
+		"/code/hack-tracker-ember/app/templates/hacks/_new.hbs",
+		"/code/hack-tracker-ember/app/scripts/controllers/hacks_controller.js",
+		"/code/hack-tracker-ember/app/templates/hacks.hbs",
+		"/code/hack-tracker-ember/app/templates/application.hbs",
+		"/code/hack-tracker-ember/app/index.html",
+		"/code/hack-tracker-ember/app/scripts/models/hack.js",
+		"/code/hack-tracker-ember/bower.json",
+		"/code/hack-tracker-ember/.gitignore",
+		"/code/hack-tracker-ember/app/scripts/views/new_hack_view.js",
+		"/code/hack-tracker-ember/app/scripts/store.js",
+		"/code/hack-tracker-ember/app/scripts/app.js",
+		"/code/hack-tracker-ember/app/scripts/router.js",
+		"/code/hack-tracker-ember/app/styles/style.css",
+		"/code/hack-tracker-ember/app/templates/hacks/index.hbs",
+		"/code/hack-tracker-ember/app/templates/index.hbs",
+		"/code/hack-tracker-ember/app/scripts/controllers/hack_controller.js",
+		"/code/hack-tracker-ember/.tmp/scripts/combined-scripts.js",
+		"/code/hack-tracker-ember/app/scripts/models/user.js",
+		"/code/hack-tracker-ember/app/scripts/routes/application_route.js",
+		"/code/hack-tracker-ember/app/bower_components/jquery/jquery-2.0.3.js",
+		"/code/hack-tracker-ember/index.html",
+		"/code/hack-tracker-ember/js/libs/handlebars.js",
+		"/code/workfeed/app/models/group.rb",
+		"/code/workfeed/test/functional/api/v1/groups_controller_test.rb",
+		"/code/workfeed/app/models/message.rb",
+		"/code/workfeed/vendor/perl/assemble",
+		"/code/workfeed/app/models/monitor_list.rb",
+		"/code/workfeed/test/functional/monitor_lists_controller_test.rb",
+		"/code/yamjs/models/spec/model/domain_controller_spec.js",
+		"/code/workfeed/app/controllers/monitor_lists_controller.rb",
+		"/code/workfeed/public/stylesheets/modules/nav.css",
+		"/code/yamjs/feeds/lib/ui/feeds/feed_title.js",
+		"/code/workfeed/public/javascripts/yamjs/yamjs-ui.js",
+		"/code/workfeed/public/javascripts/app/views/threads/show.js",
+		"/code/workfeed/public/javascripts/app/views/inbox/show.js",
+		"/code/workfeed/app/translations/en-US.yml",
+		"/code/workfeed/lib/message_feed.rb",
+		"/code/workfeed/public/javascripts/app/search_sidebar.js",
+		"/code/workfeed/public/javascripts/app/views/three_column_view.js",
+		"/code/yamjs/feeds/lib/ui/inbox/feed_title.js",
+		"/code/workfeed/app/controllers/api/v1/groups_controller.rb",
+		"/code/workfeed/public/javascripts/.giston",
+		"/code/workfeed/public/javascripts/tinymce/jscripts/tiny_mce/tiny_mce.js",
+		"/code/workfeed/lib/extensions/.giston",
+		"/code/workfeed/test/test_helper.rb",
+		"/code/workfeed_jamjar.sublime-project",
+		"/code/workfeed/script/qa",
+		"/code/workfeed/vendor/plugins/jrails/javascripts/jquery.js",
+		"/code/workfeed/vendor/gems/.giston",
+		"/code/workfeed/vendor/plugins/jrails/lib/jquery_selector_assertions.rb",
+		"/code/workfeed/vendor/plugins/jrails/init.rb",
+		"/code/workfeed/vendor/plugins/restful_authentication/README",
+		"/code/workfeed/vendor/plugins/restful_authentication/lib/restful_authentication/rails_commands.rb",
+		"/code/workfeed/config/routes/routes_api_v1.rb",
+		"/code/workfeed/app/models/failed_message.rb",
+		"/code/workfeed/lib/workfeed/desktop_head_blocker.rb",
+		"/code/workfeed/app/controllers/group_infos_controller.rb",
+		"/code/workfeed/config/experiments/workfirst_header_nav_redesign.yml",
+		"/code/workfeed/public/images/public_site/yammer_logos/YammerLogos.ai",
+		"/code/workfeed/app/views/layouts/partials.html.erb",
+		"/code/workfeed/app/controllers/partials_controller.rb",
+		"/code/workfeed/config.ru",
+		"/code/workfeed/app/views/atom_messages/index.atom.builder",
+		"/code/workfeed/app/views/home/_org_chart_form.html.erb",
+		"/code/workfeed/app/controllers/invitations_controller.rb",
+		"/code/workfeed/test/unit/lib/message_digests/email_digest_test.rb",
+		"/code/workfeed/lib/yam_house.rb",
+		"/code/workfeed/doc/README_FOR_APP",
+		"/code/workfeed/doc/eng_tasks.txt",
+		"/code/workfeed/contrib/o_auth_example.rb",
+		"/code/workfeed/contrib/test_server.rb",
+		"/code/workfeed/Gemfile",
+		"/code/workfeed/app/controllers/ymodules_controller.rb",
+		"/code/workfeed/app/views/layouts/normal_update.erb",
+		"/code/workfeed/config/routes.rb",
+		"/code/workfeed/app/views/layouts/_public_js_includes.html.erb",
+		"/code/workfeed/app/views/layouts/application.html.erb",
+		"/code/workfeed/app/views/layouts/_passwords.html.erb",
+		"/code/workfeed/app/views/notes/_pad_editor.html.erb",
+		"/code/workfeed/test/functional/client_build_controller_test.rb",
+		"/code/workfeed/app/views/client_build/index.html.erb",
+		"/code/workfeed/lib/sets/user_set.rb",
+		"/code/workfeed/test/unit/group_test.rb",
+		"/code/workfeed/app/models/group_member.rb",
+		"/code/workfeed/lib/inline_model.rb",
+		"/code/workfeed/lib/user/activator.rb",
+		"/code/workfeed/app/models/user.rb",
+		"/code/workfeed/app/controllers/api/v1/group_memberships_controller.rb",
+		"/code/workfeed/app/controllers/developer_tools/harness_controller.rb",
+		"/code/workfeed/test/unit/group_member_test.rb",
+		"/code/workfeed/app/models/rss_feed.rb",
+		"/code/workfeed/app/models/bot.rb",
+		"/code/workfeed/app/controllers/groups_controller.rb",
+		"/code/workfeed/app/controllers/group_members_controller.rb",
+		"/code/workfeed/app/controllers/application_controller.rb",
+		"/code/workfeed/app/controllers/api/v1/threads_controller.rb",
+		"/code/workfeed/lib/feeds/feedie/feedie_adapter.rb",
+		"/code/workfeed/app/workers/feedie_thread_follower.rb",
+		"/code/workfeed/lib/feeds/feedie/service.rb",
+		"/code/workfeed/lib/tasks/dev.rake",
+		"/code/workfeed/tasks.txt",
+		"/code/workfeed/lib/tasks/workfeed.rake",
+		"/code/workfeed/public/javascripts/app/activation_multistep_lightboxes.js",
+		"/code/workfeed/public/javascripts/app/app_directory_sso.js",
+		"/code/workfeed/app/views/layouts/developer_tools/_harness.html.erb"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"",
+			"*.js",
+			"*",
+			"*.rb",
+			"*_spec.js",
+			"*_spec",
+			"*",
+			"*.js",
+			"*",
+			"*.erb",
+			"*js",
+			"*",
+			"*.rb",
+			"*",
+			"app/*",
+			"*",
+			"*.erb",
+			"*",
+			"*.erb",
+			"*",
+			"*.rb",
+			"*controller.rb",
+			"*.rb",
+			"*.rake",
+			"*.js",
+			"*.rb",
+			"*",
+			"*.rb",
+			"db/*.rb",
+			"*.rb",
+			"*.erb",
+			"*.css",
+			"*",
+			"*.rb",
+			"*",
+			"*.rb",
+			"*test*.rb",
+			"*.rb",
+			"*.erb",
+			"config/*.rb",
+			"*",
+			"*.js",
+			"*",
+			"app/models/*.rb",
+			"*_test*rb",
+			"*",
+			"*.rb",
+			"*.erb",
+			"*.rb",
+			"*_controller.rb",
+			"_controller.rb",
+			"",
+			"*.rb",
+			"*routes*.rb",
+			"*",
+			"*controller.rb",
+			"api/v1/*controller.rb",
+			"*",
+			"*.js",
+			"*",
+			"*.rb",
+			"*",
+			"*.yml",
+			"*",
+			"*backstage.yml",
+			"*",
+			"*backstage.yml",
+			"*",
+			"*.rb",
+			"*.erb",
+			"*",
+			"*.rb",
+			"lib/notifications/*.rb",
+			"*",
+			"*.rb",
+			"*.erb",
+			"*",
+			"app/views/accounts/*html*",
+			"app/views/accounts/*.erb",
+			"*.erb",
+			"*.rb",
+			"test/*.rb",
+			"*.rb",
+			"app/*.rb",
+			"lib/*.rb",
+			"app/*.rb",
+			"*.rb",
+			"*test*.rb",
+			"*",
+			"*.rake",
+			"rake",
+			"*.rb",
+			"*notification*.rb",
+			"lib/notification*.rb",
+			"*.rb",
+			"*",
+			"*.rb",
+			"*",
+			"*.rb",
+			"*",
+			"*.rb",
+			"app/models/*.rb",
+			"*",
+			"*.rb",
+			"api/*.rb",
+			"*.rb",
+			"*.erb",
+			"*.rb",
+			"*.erb",
+			"*.rb",
+			"*.erb",
+			"*",
+			"*.rb",
+			"test/unit/*.rb",
+			"app/models/*.rb",
+			"*.rb",
+			"app/models/*.rb",
+			"*.rb",
+			"*",
+			"*.erb",
+			"*.rb",
+			"*rb",
+			"*.yml",
+			"*",
+			"*.rb",
+			"test/*.rb",
+			"*.rb",
+			"*"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"console.log",
+			"passport",
+			"user",
+			"image",
+			"float",
+			"open",
+			"Your App",
+			"HackTrackerEmber",
+			"App.Hack",
+			"MonitorList",
+			"perl/assemble",
+			"Inbox",
+			"yj-home-feed-title header-content",
+			"yj-home-feed-title header-content yj-component",
+			"title",
+			"Inbox",
+			"title",
+			"yj-home-feed-title header-content",
+			"home_tabs_for_user",
+			"inbox_description",
+			"contains all conver",
+			"contains all",
+			"Inbox",
+			"'Inbox'",
+			"\"Inbox\"",
+			"Inbox",
+			"page-header-container",
+			"Inbox",
+			"yj-feed-name",
+			"response",
+			"@response",
+			".erb",
+			"yj-feed-name",
+			"braid",
+			"functor",
+			"stay_tuned",
+			"AntiObject",
+			"version",
+			"javascript_function",
+			"jrails",
+			"perl",
+			"MonitorList",
+			"route_resource",
+			"country",
+			"country_select",
+			"to_country_select_tag",
+			"country_options_for_select",
+			"country_select",
+			"has_attachment",
+			"partials/show",
+			"white_list",
+			"form_remote_tag",
+			"Functor",
+			"Struct",
+			"Functor",
+			"error_messages_for",
+			"error_message_on",
+			"BulkUpdaterTools",
+			"Android::",
+			"BadgeExpirations",
+			"free-email-list",
+			"GServer",
+			"ymodules/instance",
+			"realtime/example",
+			"example",
+			"application_ps2",
+			"y3_ie6",
+			"layouts/upgrade",
+			"upgrade",
+			"tr8n_js_sdk",
+			"tr8n_js-sdk",
+			"tablesort_colspan",
+			"include_rocket_pixel",
+			"rocketpixel",
+			"personal_email_no",
+			"old_header",
+			"name_field_observer",
+			"mixpanel",
+			"page_edit_ie6",
+			"client_build",
+			"remove_memberships",
+			"group.members_count",
+			"update_members_count",
+			"cache",
+			"CACHE",
+			"bot?",
+			"bot",
+			"after_hard_delete",
+			"before_soft_or_hard_delete",
+			"after_hard_de",
+			"raise",
+			"remove_feed_subscriptions",
+			"before_soft",
+			"raise",
+			"header_groups_list",
+			"log_groups_index_if_from_nav",
+			"header_groups_list",
+			"update_count_and_log_deletion",
+			"update_members_count",
+			"group ",
+			"validate",
+			"validates",
+			"approve_after_save",
+			"approved?",
+			"before_soft_or_hard_delete",
+			"before_soft_or_hard_delere",
+			"publish_office365_shadow_to_flatterie",
+			"network_consistency",
+			"delete_group_if_empty",
+			"delete_group_if_empth",
+			"handle_approval",
+			"< GroupMember",
+			"private",
+			"_thread",
+			"follow_",
+			"EventLog.log_event",
+			"follow_thread_in_inbox",
+			"destroy",
+			"at_least_once",
+			"remove_message",
+			"destroy",
+			"dummy",
+			"users",
+			"bunch",
+			"Mustache",
+			"\\",
+			"DestroyError",
+			"after_delete"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"App",
+			"@top_groups.",
+			"h5",
+			"\\n",
+			"\\r",
+			"\\n",
+			".create_references!",
+			"puts",
+			"75x75",
+			"orig_opts",
+			"Role",
+			"",
+			"new(:level => SubscriptionLevel.enterprise),",
+			"new(:level => SubscriptionLevel.silver),",
+			"new(:level => SubscriptionLevel.basic),",
+			"enterprise",
+			"ext_",
+			"connection",
+			"",
+			"large",
+			".client-application-admin",
+			"wider",
+			"app",
+			"@app",
+			"@admin_network",
+			"network",
+			"margin"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/hack.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								540,
+								540
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/sublime-better-coffeescript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/routes/hack.coffee",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/sublime-better-coffeescript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								177
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/event.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 279,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/sublime-better-coffeescript/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 132.0
+	},
+	"output.git":
+	{
+		"height": 110.0
+	},
+	"project": "hack-tracker.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"hack",
+				"app/routes/hack.coffee"
+			],
+			[
+				"hack.",
+				"app/routes/hack.coffee"
+			],
+			[
+				"hack.co",
+				"app/routes/hack.coffee"
+			],
+			[
+				"user.coff",
+				"app/routes/user.coffee"
+			],
+			[
+				"hack.js",
+				"client/app/scripts/models/hack.js"
+			],
+			[
+				"lib/auth",
+				"app/lib/auth.js"
+			],
+			[
+				"event.",
+				"routes/event.coffee"
+			],
+			[
+				".giti",
+				".gitignore"
+			],
+			[
+				"contro",
+				"app/scripts/controllers/hacks_controller.js"
+			],
+			[
+				"appl",
+				"app/templates/application.hbs"
+			],
+			[
+				".hbs",
+				"app/templates/hacks.hbs"
+			],
+			[
+				".css",
+				"app/styles/style.css"
+			],
+			[
+				"store.js",
+				"app/scripts/store.js"
+			],
+			[
+				"message.rb",
+				"workfeed/app/models/message.rb"
+			],
+			[
+				"group.rb",
+				"workfeed/app/models/group.rb"
+			],
+			[
+				"groups_contest",
+				"workfeed/test/functional/api/v1/groups_controller_test.rb"
+			],
+			[
+				"moncontro",
+				"workfeed/app/controllers/monitor_lists_controller.rb"
+			],
+			[
+				"assem",
+				"workfeed/vendor/perl/assemble"
+			],
+			[
+				"nav.css",
+				"workfeed/public/stylesheets/modules/nav.css"
+			],
+			[
+				"groups_contro",
+				"workfeed/app/controllers/api/v1/groups_controller.rb"
+			],
+			[
+				"groups_controller_test",
+				"workfeed/test/functional/api/v1/groups_controller_test.rb"
+			],
+			[
+				"tiny",
+				"workfeed/public/javascripts/tinymce/jscripts/tiny_mce/tiny_mce.js"
+			],
+			[
+				".giston",
+				"workfeed/public/javascripts/.giston"
+			],
+			[
+				".gitson",
+				"workfeed/public/javascripts/.giston"
+			],
+			[
+				".gits",
+				"workfeed/lib/extensions/.giston"
+			],
+			[
+				"jquery.js",
+				"workfeed/vendor/plugins/jrails/javascripts/jquery.js"
+			],
+			[
+				"monitor_list",
+				"workfeed/app/models/monitor_list.rb"
+			],
+			[
+				"failed_message.rb",
+				"workfeed/app/models/failed_message.rb"
+			],
+			[
+				"apigroupcontro",
+				"workfeed/app/controllers/api/v1/groups_controller.rb"
+			],
+			[
+				"routes_api_v1",
+				"workfeed/config/routes/routes_api_v1.rb"
+			],
+			[
+				"group_infos_con",
+				"workfeed/app/controllers/group_infos_controller.rb"
+			],
+			[
+				"headernav",
+				"workfeed/config/experiments/workfirst_header_nav_redesign.yml"
+			],
+			[
+				"images/",
+				"workfeed/public/images/public_site/yammer_logos/YammerLogos.ai"
+			],
+			[
+				"layout/parti",
+				"workfeed/app/views/layouts/partials.html.erb"
+			],
+			[
+				"config.ru",
+				"workfeed/config.ru"
+			],
+			[
+				".builder",
+				"workfeed/app/views/atom_messages/index.atom.builder"
+			],
+			[
+				"yamhouse",
+				"workfeed/lib/yam_house.rb"
+			],
+			[
+				"gemfil",
+				"workfeed/Gemfile"
+			],
+			[
+				"ymodules_contr",
+				"workfeed/app/controllers/ymodules_controller.rb"
+			],
+			[
+				"inline_model",
+				"workfeed/lib/inline_model.rb"
+			],
+			[
+				"user.rb",
+				"workfeed/app/models/user.rb"
+			],
+			[
+				"groupmembcontr",
+				"workfeed/app/controllers/api/v1/group_memberships_controller.rb"
+			],
+			[
+				"useractivato",
+				"workfeed/lib/user/activator.rb"
+			],
+			[
+				"developer_tools/han",
+				"workfeed/app/controllers/developer_tools/harness_controller.rb"
+			],
+			[
+				"user_set.rb",
+				"workfeed/lib/sets/user_set.rb"
+			],
+			[
+				"bot.rb",
+				"workfeed/app/models/bot.rb"
+			],
+			[
+				"group_member.rb",
+				"workfeed/app/models/group_member.rb"
+			],
+			[
+				"group_test.rb",
+				"workfeed/test/unit/group_test.rb"
+			],
+			[
+				"groupmebtest",
+				"workfeed/test/unit/group_member_test.rb"
+			],
+			[
+				"gropu_mem",
+				"workfeed/app/models/group_member.rb"
+			],
+			[
+				"group_members_control",
+				"workfeed/app/controllers/group_members_controller.rb"
+			],
+			[
+				"group_member_test.rb",
+				"workfeed/test/unit/group_member_test.rb"
+			],
+			[
+				"service",
+				"workfeed/lib/feeds/feedie/service.rb"
+			],
+			[
+				"feedie_thread_follo",
+				"workfeed/app/workers/feedie_thread_follower.rb"
+			],
+			[
+				"message_feed.",
+				"workfeed/lib/message_feed.rb"
+			],
+			[
+				"threads_contro",
+				"workfeed/app/controllers/api/v1/threads_controller.rb"
+			],
+			[
+				"application_con",
+				"workfeed/app/controllers/application_controller.rb"
+			],
+			[
+				"group_member_test",
+				"workfeed/test/unit/group_member_test.rb"
+			],
+			[
+				"group_memeb.rb",
+				"workfeed/app/models/group_member.rb"
+			],
+			[
+				"tasks.txt",
+				"workfeed/tasks.txt"
+			],
+			[
+				"dev.rake",
+				"workfeed/lib/tasks/dev.rake"
+			],
+			[
+				"asset_pack",
+				"workfeed/config/asset_packages.yml"
+			],
+			[
+				"harness_contr",
+				"workfeed/app/controllers/developer_tools/harness_controller.rb"
+			],
+			[
+				"harness.html",
+				"workfeed/app/views/layouts/developer_tools/_harness.html.erb"
+			],
+			[
+				"addsharepointhash",
+				"workfeed/db/migrate/20130808130000_add_sharepoint_hash_to_uploaded_files.rb"
+			],
+			[
+				"addindextomessagethrea",
+				"workfeed/db/migrate/20130810204602_add_index_to_message_threads_and_references.rb"
+			],
+			[
+				"group_memb",
+				"workfeed/test/unit/group_member_test.rb"
+			],
+			[
+				"app_js_in",
+				"workfeed/app/views/layouts/_app_js_includes.html.erb"
+			],
+			[
+				"_harness",
+				"workfeed/app/views/layouts/developer_tools/_harness.html.erb"
+			],
+			[
+				"yerf",
+				"workfeed/app/views/layouts/_yerf.html.erb"
+			],
+			[
+				"publicjs",
+				"workfeed/app/views/layouts/_public_js_includes.html.erb"
+			],
+			[
+				"queued_em",
+				"workfeed/app/models/queued_email.rb"
+			],
+			[
+				"mugshotgir",
+				"workfeed/test/xunit/mugshot_grid_test.rb"
+			],
+			[
+				"mugshot_grid.",
+				"workfeed/lib/mugshot_grid.rb"
+			],
+			[
+				"securtconfigu",
+				"workfeed/app/models/network_security_configuration.rb"
+			],
+			[
+				"network_sec_con",
+				"workfeed/app/models/network_security_configuration.rb"
+			],
+			[
+				"sharbletest",
+				"workfeed/test/unit/lib/sharable_test.rb"
+			],
+			[
+				"appl_contro",
+				"workfeed/app/controllers/application_controller.rb"
+			],
+			[
+				"runbook",
+				"workfeed/RUNBOOK.md"
+			],
+			[
+				"app_js",
+				"workfeed/app/views/layouts/_app_js_includes.html.erb"
+			],
+			[
+				"javascript_incl",
+				"workfeed/app/views/layouts/_javascript_includes.html.erb"
+			],
+			[
+				"footer.html.",
+				"workfeed/app/views/layouts/_footer.html.erb"
+			],
+			[
+				"html_head",
+				"workfeed/app/views/layouts/_html_head.html.erb"
+			],
+			[
+				"routes.txt",
+				"workfeed/routes.txt"
+			],
+			[
+				"header.html.",
+				"workfeed/app/views/layouts/_header.html.erb"
+			],
+			[
+				"harness",
+				"workfeed/app/views/layouts/developer_tools/_harness.html.erb"
+			],
+			[
+				"group_membertest",
+				"workfeed/test/unit/group_member_test.rb"
+			],
+			[
+				"groupmember",
+				"workfeed/app/models/group_member.rb"
+			],
+			[
+				"peer_gettin",
+				"workfeed/lib/peer_getting_started.rb"
+			],
+			[
+				"yam_stream",
+				"workfeed/lib/yam_streamer.rb"
+			],
+			[
+				"truncate.rb",
+				"workfeed/lib/truncate.rb"
+			],
+			[
+				"truncate",
+				"workfeed/test/unit/lib/truncated.rb"
+			],
+			[
+				"streams/service.rb",
+				"workfeed/lib/streams/service.rb"
+			],
+			[
+				"gemfi",
+				"workfeed/Gemfile"
+			],
+			[
+				"invitation_contr",
+				"workfeed/app/controllers/invitations_controller.rb"
+			],
+			[
+				"routes.rb",
+				"workfeed/config/routes.rb"
+			],
+			[
+				"tmp.tmp",
+				"workfeed/tmp.tmp"
+			],
+			[
+				"common_contro",
+				"workfeed/lib/common_controller_behaviour.rb"
+			],
+			[
+				"api_controll",
+				"workfeed/app/controllers/api/v1/api_controller.rb"
+			],
+			[
+				"applic_contr",
+				"workfeed/app/controllers/application_controller.rb"
+			],
+			[
+				"uploaded_file",
+				"workfeed/app/models/uploaded_file.rb"
+			],
+			[
+				"test_helper.rb",
+				"workfeed/test/test_helper.rb"
+			],
+			[
+				"uploadfilecontrtest",
+				"workfeed/test/functional/api/v1/uploaded_files_controller_part_one_test.rb"
+			],
+			[
+				"uploadedfilescontro",
+				"workfeed/app/controllers/api/v1/uploaded_files_controller.rb"
+			],
+			[
+				"defer_after_co",
+				"workfeed/lib/deferred_after_commit.rb"
+			],
+			[
+				"uploaded_files_controller_part_one",
+				"workfeed/test/functional/api/v1/uploaded_files_controller_part_one_test.rb"
+			],
+			[
+				"group_controltest",
+				"workfeed/test/functional/api/v1/groups_controller_test.rb"
+			],
+			[
+				"fileactv",
+				"workfeed/test/unit/lib/activities/file_activity_test.rb"
+			],
+			[
+				"deferred_",
+				"workfeed/lib/deferred_after_commit.rb"
+			],
+			[
+				"deferred_after",
+				"workfeed/lib/deferred_after_commit.rb"
+			],
+			[
+				"uploaded_file_version_test",
+				"workfeed/test/unit/uploaded_file_version_test.rb"
+			],
+			[
+				"stream_distr",
+				"workfeed/app/workers/stream_distributor.rb"
+			],
+			[
+				"uploaded_file_vers",
+				"workfeed/app/models/uploaded_file_version.rb"
+			],
+			[
+				"uploaded_fievers",
+				"workfeed/app/models/uploaded_file_version.rb"
+			],
+			[
+				"sidebar_members_conta",
+				"workfeed/app/views/groups/_sidebar_members_container.html.erb"
+			],
+			[
+				"profile_sidebar",
+				"workfeed/app/views/groups/_profile_sidebar.html.erb"
+			],
+			[
+				"test_case",
+				"workfeed/test/xunit/workfeed/test_case.rb"
+			],
+			[
+				"test/xunit/",
+				"workfeed/test/xunit/feature_test.rb"
+			],
+			[
+				"development.rb",
+				"workfeed/config/environments/development.rb"
+			],
+			[
+				"development.rb.temp",
+				"workfeed/config/environments/development.rb.template"
+			],
+			[
+				"nav.erb",
+				"workfeed/app/views/layouts/public_site/_public_site_nav.html.erb"
+			],
+			[
+				"deveharness",
+				"workfeed/app/views/developer_tools/harness/layout.html.erb"
+			],
+			[
+				"_follow",
+				"workfeed/app/views/common/_followers_sidebar_item.html.erb"
+			],
+			[
+				"_nav",
+				"workfeed/app/views/layouts/_nav_menu.html.erb"
+			],
+			[
+				"experiments_auth",
+				"workfeed/lib/developer_tools/experiments_authorization.rb"
+			],
+			[
+				"feature.rb",
+				"workfeed/app/models/feature.rb"
+			],
+			[
+				"routes_api_int",
+				"workfeed/config/routes/routes_api_int.rb"
+			],
+			[
+				"group",
+				"workfeed/app/models/group.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/code/workfeed.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 1209.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

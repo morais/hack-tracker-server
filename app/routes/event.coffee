@@ -1,12 +1,14 @@
+mongoose = require "mongoose"
+
 exports.configureRoutes = (app) ->
-  Event = app.Event
+  Event = mongoose.model 'Event'
   format = (o) ->
     o = o.toObject()
     title: o.title
 
   app.get '/events', (req, res) ->
-    Event.find (e, events) ->
-      res.send 'events': format hack for hack in events
+    Event.find (err, events) ->
+      res.send 'events': format e for e in events
 
 
   app.get '/events/:id', (req, res) ->

@@ -4,7 +4,7 @@
 		{
 			"follow_symlinks": true,
 			"path": "/code/hack-tracker-server",
-      "folder_exclude_patterns": ["node_modules", "bower_components"],
+      "folder_exclude_patterns": ["node_modules", "public/css", "public/js"],
       "file_exclude_patterns": [".gitignore", "*newrelic*", "*.log", "*.sublime-project"]
 		}
 	]

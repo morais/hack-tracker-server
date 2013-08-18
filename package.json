@@ -27,6 +27,6 @@
     "grunt-contrib-clean": "~0.4.0",
     "grunt-contrib-copy": "latest",
     "matchdep": "~0.1.1",
-    "grunt-ember-templates": "0.4.7"
+    "grunt-ember-templates": "0.4.10"
   }
 }

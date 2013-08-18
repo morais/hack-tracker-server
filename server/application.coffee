@@ -9,6 +9,15 @@ newrelic = require 'newrelic'
 
 
 
+# Cors
+cors = (req, res, next) ->
+  res.header 'Access-Control-Allow-Origin', '*'
+  res.header 'Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE'
+  res.header 'Access-Control-Allow-Headers', 'Content-Type'
+  next();
+
+
+
 # Express config
 app = express()
 
@@ -21,6 +30,7 @@ app.use express.methodOverride()
 app.use express.session({ secret: process.env.SESSION_SECRET || 'hacktracker' })
 app.use passport.initialize()
 app.use passport.session()
+app.use cors
 app.use app.router
 
 app.use express.errorHandler() if 'development' == app.get('env')
@@ -46,6 +56,7 @@ auth = require './lib/auth'
 auth.configureAuth app
 
 
+
 # Resources
 for route in ['event', 'hack', 'user']
   obj = require './routes/' + route
@@ -55,11 +66,6 @@ for route in ['event', 'hack', 'user']
 
 # Common routes
 app.use express.static path.join(__dirname, '/../public/')
-
-app.all '/*', (req, res, next) ->
-  res.header "Access-Control-Allow-Origin", "*"
-  res.header "Access-Control-Allow-Headers", "X-Requested-With,Content-Type"
-  next()
 
 
 

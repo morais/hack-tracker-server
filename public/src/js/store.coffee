@@ -1,5 +1,5 @@
 hackdapter = DS.RESTAdapter.extend
-  url: "http://localhost:3000"
+  url: "http://murmuring-fortress-9026.herokuapp.com"
 
 App.Store = DS.Store.extend
   revision: 13
